@@ -1,0 +1,21 @@
+<ModMetaData>
+	<name>Pawnmorpher: Useful Animals</name>
+	<author>Oken</author>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>Makes sapient animals more useful! Requires Pawnmorpher</description>
+	<packageId>Oken.PawnmorpherUsefulAnimals</packageId>
+	<modDependencies>
+		<li>
+			<packageId>tachyonite.pawnmorpherpublic</packageId>
+			<displayName>Pawnmorpher</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1786466855</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>tachyonite.pawnmorpherpublic</li>
+	</loadAfter>
+</ModMetaData>

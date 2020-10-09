@@ -1,0 +1,124 @@
+<Patch>
+
+<!--Animal Expanded Series-->
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Tropical Rainforest</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+                <!--Animals that have dexterous paws. They can hold tools, making them able of crafting. Snakes go here too, as they can hold tools with their
+                flexibles tails.-->
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/ThingDef[defName="AEXP_Lemur"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.DefExtensions.FormerHumanSettings">
+                            <backstory>FormerHumanCrafter</backstory>
+                        </li>
+                    </value>
+                </li>
+                <!--Animals that are big enough to fell trees and have the dexterity to use tools-->
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/ThingDef[defName="AEXP_Gorilla"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.DefExtensions.FormerHumanSettings">
+                            <backstory>FormerHumanSkilled</backstory>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/ThingDef[defName="AEXP_Mandrill"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.DefExtensions.FormerHumanSettings">
+                            <backstory>FormerHumanSkilled</backstory>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Extreme Desert</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+                <!--Animals that have dexterous paws. They can hold tools, making them able of crafting. Snakes go here too, as they can hold tools with their
+                flexibles tails.-->
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/ThingDef[defName="AEXP_Rattlesnake"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.DefExtensions.FormerHumanSettings">
+                            <backstory>FormerHumanCrafter</backstory>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Tropical Swamp</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+                <!--Animals that have dexterous paws. They can hold tools, making them able of crafting. Snakes go here too, as they can hold tools with their
+                flexibles tails.-->
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/ThingDef[defName="AEXP_Anaconda"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.DefExtensions.FormerHumanSettings">
+                            <backstory>FormerHumanCrafter</backstory>
+                        </li>
+                    </value>
+                </li>
+                <!--Animals that are big enough to fell trees. They will also be able to harvest smaller things, but there is no easy workaround this issue-->
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/ThingDef[defName="AEXP_IndianElephant"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.DefExtensions.FormerHumanSettings">
+                            <backstory>FormerHumanPlantWorker</backstory>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Australia</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+                <!--Animals that have dexterous paws. They can hold tools, making them able of crafting. Snakes go here too, as they can hold tools with their
+                flexibles tails.-->
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/ThingDef[defName="AEXP_Koala"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.DefExtensions.FormerHumanSettings">
+                            <backstory>FormerHumanCrafter</backstory>
+                        </li>
+                    </value>
+                </li>
+                <!--Animals that are big enough to fell trees and have the dexterity to use tools-->
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/ThingDef[defName="AEXP_Kangaroo"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.DefExtensions.FormerHumanSettings">
+                            <backstory>FormerHumanSkilled</backstory>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

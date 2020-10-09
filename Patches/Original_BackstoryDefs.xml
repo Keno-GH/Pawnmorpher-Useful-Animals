@@ -1,0 +1,9 @@
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/AlienRace.BackstoryDef[@Name="FormerHumanBase"]/workAllows</xpath>
+        <value>
+            <li>Intellectual</li>
+            <li>Hunting</li>
+        </value>
+    </Operation>
+</Patch>

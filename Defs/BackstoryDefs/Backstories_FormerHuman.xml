@@ -1,0 +1,41 @@
+<Defs>
+    <!--Animals strong enough to fall a tree-->
+    <AlienRace.BackstoryDef  ParentName="FormerHumanBase">
+        <defName>FormerHumanPlantWorker</defName>
+        <title>former human</title>
+        <titleShort>former human</titleShort>
+        <baseDescription>A colony turned [PAWN_nameDef] into an animal, using mutagenic mechanites. (Un?)fortunately, [PAWN_pronoun] retains [PAWN_possessive] human mind...but for how long? In this state, [PAWN_nameDef] can be drafted, fell trees thanks to their strength, tend to plants, have limited social interactions and will need to be kept happy to resist instinct creeping in.</baseDescription>
+        <workAllows>
+            <li>ManualSkilled</li>
+            <li>PlantWork</li>
+        </workAllows>
+    </AlienRace.BackstoryDef>
+
+    <!--Animals specialized on mining. Basically Insects. Because of game limitations, this also allows them to construct-->
+    <AlienRace.BackstoryDef  ParentName="FormerHumanBase">
+        <defName>FormerHumanMiner</defName>
+        <title>former human</title>
+        <titleShort>former human</titleShort>
+        <baseDescription>A colony turned [PAWN_nameDef] into an animal, using mutagenic mechanites. (Un?)fortunately, [PAWN_pronoun] retains [PAWN_possessive] human mind...but for how long? In this state, [PAWN_nameDef] can be drafted, mine thanks to their new body parts, have limited social interactions and will need to be kept happy to resist instinct creeping in.</baseDescription>
+        <workAllows>
+            <li>ManualSkilled</li>
+            <li>Mining</li>
+        </workAllows>
+    </AlienRace.BackstoryDef>
+
+    <!--Animals strong and with high dexterity that can do most tasks-->
+    <AlienRace.BackstoryDef  ParentName="FormerHumanBase">
+        <defName>FormerHumanSkilled</defName>
+        <title>former human</title>
+        <titleShort>former human</titleShort>
+        <baseDescription>A colony turned [PAWN_nameDef] into an animal, using mutagenic mechanites. (Un?)fortunately, [PAWN_pronoun] retains [PAWN_possessive] human mind...but for how long? In this state, [PAWN_nameDef] can be drafted, have limited social interactions and, thanks to [PAWN_pronoun] innate strength and dextrerous paws, is able to perform most tasks. [PAWN_nameDef] will need to be kept happy to resist instinct creeping in.</baseDescription>
+        <workAllows>
+            <li>ManualSkilled</li>
+            <li>Crafting</li>
+            <li>Caring</li>
+            <li>Artistic</li>
+            <li>PlantWork</li>
+        </workAllows>
+    </AlienRace.BackstoryDef>
+
+</Defs>
